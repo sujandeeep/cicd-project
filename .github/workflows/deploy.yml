@@ -1,0 +1,17 @@
+name: CI/CD with Auto Rollback
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build Docker image
+        run: docker build -t cicd-project:${{ github.sha }} .
+
+      - name: Run tests
+        run: docker run cicd-project:${{ github.sha }} npm test
