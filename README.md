@@ -24,9 +24,7 @@ This project is a Continuous Integration/Continuous Deployment (CI/CD) pipeline 
    ```bash
    cd cicd-project
    ```
-3. Install dependencies:
-   ```bash
-   [Your Installation Command Here]
+
    ```
 
 ## Usage
