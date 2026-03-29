@@ -9,12 +9,6 @@ This project is a Continuous Integration/Continuous Deployment (CI/CD) pipeline 
 - Deployment to production servers
 - Easy rollback capabilities
 
-## Tech Stack
-- Programming Language: [Your Language Here]
-- CI/CD Tool: GitHub Actions
-- Deployment: [Your Deployment Method Here]
-- Database: [Your Database Here]
-
 ## Installation
 1. Clone the repository:
    ```bash
